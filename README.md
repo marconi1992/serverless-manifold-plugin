@@ -1,6 +1,9 @@
 # serverless-manifold-plugin
 
-This [Serverless](https://github.com/serverless/serverless) plugin load Environment Variables from [https://www.manifold.co/] project into Serverless.
+This [Serverless](https://github.com/serverless/serverless) plugin load Environment Variables from [manifold.co](https://www.manifold.co/) into serverles on `serverless deploy` command.
+
+## Requirements
+You need to have installed [manifold cli](https://github.com/manifoldco/manifold-cli).
 
 ## Installation
 
@@ -22,23 +25,4 @@ plugins:
 Run Serverless Deploy
 ```
 sls deploy
-```
-
-Invoke Lambda using [AWS SDK](https://github.com/aws/aws-sdk-js).
-
-```javascript
-const AWS = require('aws-sdk');
-
-const lambda = new AWS.Lambda({
-  endpoint: new AWS.Endpoint('http://localhost:4000'),
-  region: 'us-east-1',
-});
-
-
-lambda.invoke({
-  FunctionName: 'function',
-  InvocationType: 'Event',
-  Payload: JSON.stringify({ key: 'value' }),
-}).promise();
-
 ```
