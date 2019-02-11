@@ -1,9 +1,13 @@
 {
   "name": "serverless-manifold-plugin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "main": "src",
   "author": "marconi1992",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marconi1992/serverless-manifold-plugin.git"
+  },
   "keywords": [
     "serverless",
     "manifold.co",

@@ -1,9 +1,10 @@
 # serverless-manifold-plugin
 
-This [Serverless](https://github.com/serverless/serverless) plugin load Environment Variables from [manifold.co](https://www.manifold.co/) into serverles on `serverless deploy` command.
+This [Serverless](https://github.com/serverless/serverless) plugin load Environment Variables from [manifold.co](https://www.manifold.co/) into serverless on `serverless deploy` command.
 
 ## Requirements
-You need to have installed [manifold cli](https://github.com/manifoldco/manifold-cli).
+- [manifold cli](https://github.com/manifoldco/manifold-cli). 
+- `.manifold.yml` file in the same folder where `serverless.yml` is located.
 
 ## Installation
 

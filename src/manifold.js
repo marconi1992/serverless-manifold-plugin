@@ -6,7 +6,7 @@ const parse = (src) => {
 
   src.toString().split('\n').forEach((line) => {
     // matching "KEY' and 'VAL' in 'KEY=VAL'
-    const keyValueArr = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/)
+    const keyValueArr = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
     // matched?
     if (keyValueArr != null) {
       const key = keyValueArr[1];
