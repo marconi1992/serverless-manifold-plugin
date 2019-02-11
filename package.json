@@ -1,0 +1,22 @@
+{
+  "name": "serverless-manifold-plugin",
+  "version": "1.1.0",
+  "license": "MIT",
+  "main": "src",
+  "author": "marconi1992",
+  "keywords": [
+    "serverless",
+    "manifold.co",
+    "serverless-plugin"
+  ],
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "dotenv-expand": "^4.2.0"
+  }
+}
